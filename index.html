@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
+
+
+
+
+<title>Workshop on ‘Integrating Wildlife into Transformative Urban Nature Planning Actions’</title>
+
+<script src="site_libs/header-attrs-2.31/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<style>h1 {font-size: 34px;}
+       h1.title {font-size: 38px;}
+       h2 {font-size: 30px;}
+       h3 {font-size: 24px;}
+       h4 {font-size: 18px;}
+       h5 {font-size: 16px;}
+       h6 {font-size: 12px;}
+       code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
+       pre:not([class]) { background-color: white }</style>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/htmltools-fill-0.5.9/fill.css" rel="stylesheet" />
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="site_libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="site_libs/proj4-2.6.2/proj4.min.js"></script>
+<script src="site_libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="site_libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="site_libs/leaflet-binding-2.2.3/leaflet.js"></script>
+<script src="site_libs/leaflet-providers-3.0.0/leaflet-providers.js"></script>
+<script src="site_libs/leaflet-providers-plugin-2.2.3/leaflet-providers-plugin.js"></script>
+<script src="site_libs/clipboard-0.0.1/setClipboardText.js"></script>
+<link href="site_libs/mapviewCSS-0.0.1/mapview-popup.css" rel="stylesheet" />
+<link href="site_libs/mapviewCSS-0.0.1/mapview.css" rel="stylesheet" />
+<link href="site_libs/lfx-gps-1.7.8/lfx-gps-prod.css" rel="stylesheet" />
+<script src="site_libs/lfx-gps-1.7.8/lfx-gps-prod.js"></script>
+<script src="site_libs/lfx-gps-1.7.8/lfx-gps-bindings.js"></script>
+
+<style type="text/css">
+  code{white-space: pre-wrap;}
+  span.smallcaps{font-variant: small-caps;}
+  span.underline{text-decoration: underline;}
+  div.column{display: inline-block; vertical-align: top; width: 50%;}
+  div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+  ul.task-list{list-style: none;}
+    </style>
+
+<style type="text/css">code{white-space: pre;}</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+
+
+
+
+
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+img {
+  max-width:100%;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+summary {
+  display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
+}
+pre code {
+  padding: 0;
+}
+</style>
+
+
+
+<!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "\e258";
+  font-family: 'Glyphicons Halflings';
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+  background-color: transparent;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
+<!-- code folding -->
+
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
+
+
+
+<div id="header">
+
+
+
+<h1 class="title toc-ignore">Workshop on ‘Integrating Wildlife into
+Transformative Urban Nature Planning Actions’</h1>
+
+</div>
+
+
+<style>
+#header {display: none;}
+</style>
+<head>
+<img src="Collab-partners-banner.png">
+</head>
+<body>
+<div
+id="workshop-on-integrating-wildlife-into-transformative-urban-nature-planning-actions"
+class="section level1">
+<h1>Workshop on ‘Integrating Wildlife into Transformative Urban Nature
+Planning Actions’</h1>
+<p><img src="Wildlife-collage.png"></p>
+<div id="background" class="section level2">
+<h2>Background</h2>
+How can human-wildlife interactions (HWI) be more effectively focused on
+and integrated into transformative urban nature planning actions? To
+respond to this critical question, the existing knowledge among
+scientists, wildlife managers, urban practitioners and citizens about
+wildlife animals in the city can vary greatly. This creates tension and
+uncertainty when attempting to link the benefits of urban nature
+planning for humans and other species simultaneously under diverse
+contexts. There is an urgent need to bring science and practice together
+by integrating all different forms of knowledge. Doing so would
+facilitate comparative assessment and evaluation of urban nature
+planning that effectively incorporates information about wildlife and
+their interactions with humans. </br> Focusing on this, we are
+organizing a workshop with the aim of identifying action points that
+help us to move beyond a human-centric perspective and explicitly
+consider aspects of human-wildlife interactions and more-than-human
+justice in urban decision-making processes in cities. </br> Building on
+the
+<a href="https://environment.ec.europa.eu/topics/urban-environment/urban-nature-platform_en" target="_blank">EU’s
+Urban Nature Plan (UNP) guideline</a>, the workshop objectives are to:
+<ui>
+<li>
+Identify factors that enable or hinder the integration of wildlife
+considerations into urban planning, policy frameworks, and
+implementation processes;
+</li>
+<li>
+explore effective measures and develop actionable recommendations for
+cities seeking to strengthen human–wildlife interactions and
+coexistence;
+</li>
+<li>
+facilitate the exchange of experiences and knowledge on integrating
+wildlife into urban nature planning strategies, with a particular focus
+on implementation practices and policy directions.
+</li>
+<p></ui></br></p>
+</div>
+<div id="details" class="section level2">
+<h2>Details</h2>
+<p><strong>Date and time:</strong> October 1st 2026 - 09:30 - 17:30
+</br> <strong>Location:</strong> SPARK - Kaiserstraße 24, 76133
+Karlsruhe-Innenstadt-Ost </br> <strong>Program:</strong> Find the
+program in the
+<a href="Agenda_FINAL_EN-2.pdf" target="_blank">agenda</a>. </br></p>
+<p>The meeting point of Friedrichplatz and the venue named SPARK are
+shown in the following interactive map, as well as your geolocation if
+you permit the access.</p>
+</div>
+<div id="map" class="section level2">
+<h2>Map</h2>
+<div class="column" style="width:15%;">
+
+</div>
+<div class="column" style="width:70%;">
+<div class="leaflet html-widget html-fill-item" id="htmlwidget-400ae7ba407c789257ad" style="width:672px;height:480px;"></div>
+<script type="application/json" data-for="htmlwidget-400ae7ba407c789257ad">{"x":{"options":{"minZoom":1,"maxZoom":52,"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"preferCanvas":false,"bounceAtZoomLimits":false,"maxBounds":[[[-90,-370]],[[90,370]]]},"calls":[{"method":"addProviderTiles","args":["OpenStreetMap.DE","OpenStreetMap.DE","OpenStreetMap.DE",{"errorTileUrl":"","noWrap":false,"detectRetina":false,"pane":"tilePane"}]},{"method":"createMapPane","args":["point",440]},{"method":"addCircleMarkers","args":[[49.009462,49.0079791852581],[8.409246,8.400858025966571],6,null,"locations - Ort",{"crs":{"crsClass":"L.CRS.EPSG3857","code":null,"proj4def":null,"projectedBounds":null,"options":{}},"pane":"point","stroke":true,"color":"#333333","weight":1,"opacity":[0.9,0.9],"fill":true,"fillColor":["#FDE333","#4B0055"],"fillOpacity":[0.6,0.6]},null,null,["<div class='scrollableContainer'><table class= id='popup'><tr><td><\/td><th>Ort&emsp;<\/th><td>SPARK&emsp;<\/td><\/tr><\/table><\/div>","<div class='scrollableContainer'><table class= id='popup'><tr><td><\/td><th>Ort&emsp;<\/th><td>Friedrichsplatz&emsp;<\/td><\/tr><\/table><\/div>"],{"maxWidth":800,"minWidth":50,"autoPan":true,"keepInView":false,"closeButton":true,"closeOnClick":true,"className":""},["SPARK","Friedrichsplatz"],{"interactive":false,"permanent":false,"direction":"auto","opacity":1,"offset":[0,0],"textsize":"10px","textOnly":false,"className":"","sticky":true},null]},{"method":"addScaleBar","args":[{"maxWidth":100,"metric":true,"imperial":true,"updateWhenIdle":true,"position":"bottomleft"}]},{"method":"addLayersControl","args":["OpenStreetMap.DE","locations - Ort",{"collapsed":true,"autoZIndex":true,"position":"topleft"}]},{"method":"addLegend","args":[{"colors":["#4B0055","#FDE333"],"labels":["Friedrichsplatz","SPARK"],"na_color":null,"na_label":"NA","opacity":1,"position":"topright","type":"factor","title":"locations - Ort","extra":null,"layerId":null,"className":"info legend","group":"locations - Ort"}]},{"method":"addControlGPS","args":[{"position":"topleft","activate":true,"autoCenter":true,"setView":true}]},{"method":"activateGPS","args":[]}],"limits":{"lat":[49.0079791852581,49.009462],"lng":[8.400858025966571,8.409246]},"setView":[[49.009462,8.409246],15,[]]},"evals":[],"jsHooks":{"render":[{"code":"function(el, x, data) {\n  return (\n      function(el, x, data) {\n      // get the leaflet map\n      var map = this; //HTMLWidgets.find('#' + el.id);\n      // we need a new div element because we have to handle\n      // the mouseover output separately\n      // debugger;\n      function addElement () {\n      // generate new div Element\n      var newDiv = $(document.createElement('div'));\n      // append at end of leaflet htmlwidget container\n      $(el).append(newDiv);\n      //provide ID and style\n      newDiv.addClass('lnlt');\n      newDiv.css({\"position\":\"relative\",\"bottomleft\":\"0px\",\"background-color\":\"rgba(255, 255, 255, 0.7)\",\"box-shadow\":\"0 0 2px #bbb\",\"background-clip\":\"padding-box\",\"margin\":\"0\",\"padding-left\":\"5px\",\"padding-right\":\"5px\",\"color\":\"#333\",\"font-size\":\"9px\",\"font-family\":\"\\\"Helvetica Neue\\\", Arial, Helvetica, sans-serif\",\"text-align\":\"left\",\"z-index\":\"700\"});\n      return newDiv;\n      }\n\n\n      // check for already existing lnlt class to not duplicate\n      var lnlt = $(el).find('.lnlt');\n\n      if(!lnlt.length) {\n      lnlt = addElement();\n\n      // grab the special div we generated in the beginning\n      // and put the mousmove output there\n\n      map.on('mousemove', function (e) {\n      if (e.originalEvent.ctrlKey) {\n      if (document.querySelector('.lnlt') === null) lnlt = addElement();\n      lnlt.text(\n                           ' lon: ' + (e.latlng.lng).toFixed(5) +\n                           ' | lat: ' + (e.latlng.lat).toFixed(5) +\n                           ' | zoom: ' + map.getZoom() +\n                           ' | x: ' + L.CRS.EPSG3857.project(e.latlng).x.toFixed(0) +\n                           ' | y: ' + L.CRS.EPSG3857.project(e.latlng).y.toFixed(0) +\n                           ' | epsg: 3857 ' +\n                           ' | proj4: +proj=merc +a=6378137 +b=6378137 +lat_ts=0.0 +lon_0=0.0 +x_0=0.0 +y_0=0 +k=1.0 +units=m +nadgrids=@null +no_defs ');\n      } else {\n      if (document.querySelector('.lnlt') === null) lnlt = addElement();\n      lnlt.text(\n                      ' lon: ' + (e.latlng.lng).toFixed(5) +\n                      ' | lat: ' + (e.latlng.lat).toFixed(5) +\n                      ' | zoom: ' + map.getZoom() + ' ');\n      }\n      });\n\n      // remove the lnlt div when mouse leaves map\n      map.on('mouseout', function (e) {\n      var strip = document.querySelector('.lnlt');\n      if( strip !==null) strip.remove();\n      });\n\n      };\n\n      //$(el).keypress(67, function(e) {\n      map.on('preclick', function(e) {\n      if (e.originalEvent.ctrlKey) {\n      if (document.querySelector('.lnlt') === null) lnlt = addElement();\n      lnlt.text(\n                      ' lon: ' + (e.latlng.lng).toFixed(5) +\n                      ' | lat: ' + (e.latlng.lat).toFixed(5) +\n                      ' | zoom: ' + map.getZoom() + ' ');\n      var txt = document.querySelector('.lnlt').textContent;\n      console.log(txt);\n      //txt.innerText.focus();\n      //txt.select();\n      setClipboardText('\"' + txt + '\"');\n      }\n      });\n\n      }\n      ).call(this.getMap(), el, x, data);\n}","data":null},{"code":"function(el, x, data) {\n  return (function(el,x,data){\n           var map = this;\n\n           map.on('keypress', function(e) {\n               console.log(e.originalEvent.code);\n               var key = e.originalEvent.code;\n               if (key === 'KeyE') {\n                   var bb = this.getBounds();\n                   var txt = JSON.stringify(bb);\n                   console.log(txt);\n\n                   setClipboardText('\\'' + txt + '\\'');\n               }\n           })\n        }).call(this.getMap(), el, x, data);\n}","data":null},{"code":"function(el, x, data) {\n  return (\n  function(el, x) {\n    var control = document.querySelector('.leaflet-control-layers');\n    if (control) {\n      control.style.display = 'none';\n    }\n  }\n).call(this.getMap(), el, x, data);\n}","data":null}]}}</script>
+<p>The red dot shows the reader’s position.</p>
+</div>
+<div class="column" style="width:15%;">
+
+</div>
+</div>
+<div id="public-transportation" class="section level2">
+<h2>Public transportation</h2>
+<p>To reach Friedrichsplatz from main station, you can take the tram S1,
+S4, S7 or S11 from Poststraße to Ettlinger Tor/ Staatstheater:</p>
+<div class="column" style="width:15%;">
+
+</div>
+<div class="column" style="width:70%;">
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d10469.982177375996!2d8.388562673135494!3d49.001156668860034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x4797066bf5e834ad%3A0x1e7f9f9a8a19a609!2sKarlsruhe%20Hauptbahnhof%2C%20Bahnhofpl.%201A%2C%2076137%20Karlsruhe!3m2!1d48.9932344!2d8.4013176!4m5!1s0x479706459c442a8b%3A0x874fcf5f062d3456!2sFriedrichsplatz%2C%20Erbprinzenstra%C3%9Fe%2C%2076133%20Karlsruhe!3m2!1d49.0079018!2d8.400847299999999!5e0!3m2!1sde!2sde!4v1788952543316!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+</iframe>
+</div>
+<div class="column" style="width:15%;">
+
+</div>
+<p>If you would prefer to come to SPARK directly, take the S4, S7, or S8
+from Poststraße to Kronenplatz:</p>
+<div class="column" style="width:15%;">
+
+</div>
+<div class="column" style="width:70%;">
+<iframe src="https://www.google.com/maps/embed?pb=!1m28!1m12!1m3!1d10469.922821111182!2d8.395259623135717!3d49.001439018780864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m13!3e3!4m5!1s0x4797066bf5e834ad%3A0x1e7f9f9a8a19a609!2sKarlsruhe%20Hauptbahnhof%2C%20Bahnhofpl.%201A%2C%2076137%20Karlsruhe!3m2!1d48.9932344!2d8.4013176!4m5!1s0x479706483d45df5d%3A0x7de20dba025914dc!2sKaiserstra%C3%9Fe%2024%2C%2076133%20Karlsruhe-Innenstadt-Ost!3m2!1d49.0094521!2d8.409431999999999!5e0!3m2!1sde!2sde!4v1788952611785!5m2!1sde!2sde" width="600" height="450" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
+</iframe>
+</div>
+<div class="column" style="width:15%;">
+
+</div>
+</body>
+</div>
+</div>
+
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.odd').parent('tbody').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open');
+  });
+});
+</script>
+
+<!-- code folding -->
+
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
